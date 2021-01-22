@@ -7,6 +7,9 @@ namespace workshops_cs_bank_account
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            BankAccount Account1 = new BankAccount(12345, "Ellie", 500); 
+            Console.WriteLine($"{Account1.Id}, {Account1.Owner}, {Account1.Balance}");
         }
+
     }
 }

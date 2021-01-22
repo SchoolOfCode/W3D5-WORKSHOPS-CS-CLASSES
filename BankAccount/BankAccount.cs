@@ -1,9 +1,9 @@
 using System;
 public class BankAccount
 {
-    long Id;
-    string Owner;
-    decimal Balance;
+    public long Id;
+    public string Owner;
+    public decimal Balance;
     public BankAccount(long id, string owner, decimal balance)
     {
         Id = id;

@@ -21,4 +21,9 @@ public class BankAccount
         Console.WriteLine($"You have withdrawn {withdrawal}, your balance is now {Balance}");
         return Balance;
     }
+    
+    public void ChangeName(string name)
+    {
+        Owner = name;
+    }
 }
